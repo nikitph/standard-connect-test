@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<!--    <style type="text/css" media="all">-->
+<!--        @import url("https://www.organic-center.org/sites/default/files/css_injector/css_injector_1.css?s5lzl1");-->
+<!--    </style>-->
+    <script>document.addEventListener('DOMContentLoaded', () => { (async function() {
+      const makuaScript = document.createElement('script');
+      makuaScript.async = true;
+      makuaScript.src = 'https://cdn.jsdelivr.net/gh/makuaapp/checkout-cdn@main/bundle.min.js';
+      document.head.appendChild(makuaScript);
+
+      const stripeScript = document.createElement('script');
+      stripeScript.src = 'https://js.stripe.com/v3/';
+
+      document.head.appendChild(stripeScript);
+      const makuaRoot = document.createElement('div');
+      makuaRoot.id = 'makuaRoot';
+      makuaRoot.setAttribute('communityId', 'aeafd0ec-ae0c-416f-9d08-92649ea6ecb7');
+      makuaRoot.setAttribute('nonProfitId', '7ddf21b7-c754-491c-9a0f-d882e773ce93');
+      document.body.appendChild(makuaRoot); })(); });</script>
+    <meta name="theme-color" content="#000000" />
+    <meta
+            name="Makua"
+            content="Makua Checkout"
+    />
+    <title>Makua - Checkout</title>
+  </head>
+  <body>
+  <a id='makuaTrigger' href='#'>Trigger Button</a>
+  <div data-testid="linkElement" class="MCTJji wixui-button zKbzSQ" aria-disabled="false"><span class="ksvYOW wixui-button__label">JOIN OUR COMMUNITY</span></div>
+  <div style='height: 300vh'></div>
+  <div style='height: 300vh'></div>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+  </body>
+</html>
